@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AppDevAnalytics"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.swift_version = "4.2"
   spec.summary      = "A wrapper for classes used to log analytics to Firebase."
 
