@@ -37,7 +37,7 @@ A wrapper for classes used to log analytics to Firebase.
 
   spec.framework = "UIKit"
   spec.dependency 'Crashlytics', '~> 3.12'
-  spec.dependency 'SwiftyJSON', '~> 5.0'
+  spec.dependency 'SwiftyJSON'
 
   # spec.public_header_files = "Classes/**/*.h"
 
