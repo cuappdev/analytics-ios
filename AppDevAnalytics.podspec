@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AppDevAnalytics"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.swift_version = "4.2"
   spec.summary      = "A wrapper for classes used to log analytics to Firebase."
 
@@ -29,7 +29,7 @@ A wrapper for classes used to log analytics to Firebase.
   spec.source           = { :git => 'https://github.com/cuappdev/ios-analytics.git', :tag => spec.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  spec.ios.deployment_target = '10.0'
+  spec.ios.deployment_target = '9.0'
 
   spec.source_files  = "AppDevAnalytics/Classes/**/*"
 
