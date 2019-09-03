@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AppDevAnalytics"
-  spec.version      = "0.1.5"
+  spec.version      = "0.1.6"
   spec.swift_version = "4.2"
   spec.summary      = "A wrapper for classes used to log analytics to Firebase."
 
@@ -37,7 +37,7 @@ A wrapper for classes used to log analytics to Firebase.
 
   spec.framework = "UIKit"
   spec.dependency 'Crashlytics', '~> 3.12'
-  spec.dependency 'SwiftyJSON'
+  spec.dependency 'SwiftyJSON', '~> 4.2'
 
   # spec.public_header_files = "Classes/**/*.h"
 
