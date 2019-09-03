@@ -7,6 +7,6 @@ target 'AppDevAnalytics' do
 
   # Pods for AppDevAnalytics
   pod 'Crashlytics', '~> 3.12'
-  pod 'SwiftyJSON', '~> 4.2'
+  pod 'SwiftyJSON', '4.2'
 
 end
