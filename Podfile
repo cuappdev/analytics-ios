@@ -6,7 +6,6 @@ target 'AppDevAnalytics' do
   # use_frameworks!
 
   # Pods for AppDevAnalytics
-  pod 'Crashlytics', '~> 3.12'
-  pod 'SwiftyJSON', '~>4.2'
+  pod 'Firebase/Analytics'
 
 end

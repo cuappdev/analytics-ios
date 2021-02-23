@@ -10,7 +10,6 @@
 		3E81BD35394F2F1E30E12417 /* libPods-AppDevAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F93ADB9CEECFA4D441BE026 /* libPods-AppDevAnalytics.a */; };
 		C26343602320A01900CE6417 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C263435F2320A01900CE6417 /* Analytics.swift */; };
 		C2B392A1231C85B800C07F8B /* AppDevAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B3929F231C85B800C07F8B /* AppDevAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2B392AA231C8AA700C07F8B /* EventPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B392A9231C8AA700C07F8B /* EventPayload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +20,6 @@
 		C2B3929C231C85B800C07F8B /* AppDevAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppDevAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B3929F231C85B800C07F8B /* AppDevAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDevAnalytics.h; sourceTree = "<group>"; };
 		C2B392A0231C85B800C07F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2B392A9231C8AA700C07F8B /* EventPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPayload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 		C2B392B0231C965C00C07F8B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C2B392A9231C8AA700C07F8B /* EventPayload.swift */,
 				C263435F2320A01900CE6417 /* Analytics.swift */,
 			);
 			path = Classes;
@@ -196,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26343602320A01900CE6417 /* Analytics.swift in Sources */,
-				C2B392AA231C8AA700C07F8B /* EventPayload.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
