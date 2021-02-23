@@ -6,7 +6,7 @@
 //  Copyright © 2019 Kevin Chan. All rights reserved.
 //
 
-import FirebaseAnalytics
+import Firebase
 
 protocol Event {
     var name: String { get }
