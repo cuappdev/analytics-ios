@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E81BD35394F2F1E30E12417 /* libPods-AppDevAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F93ADB9CEECFA4D441BE026 /* libPods-AppDevAnalytics.a */; };
+		5F3B5039C50B4CAEB3A5FE0D /* Pods_AppDevAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A373A28B90D7A485541FDA /* Pods_AppDevAnalytics.framework */; };
 		C26343602320A01900CE6417 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C263435F2320A01900CE6417 /* Analytics.swift */; };
 		C2B392A1231C85B800C07F8B /* AppDevAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B3929F231C85B800C07F8B /* AppDevAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B26A811F5ED6D5ECFCAD43A /* Pods-AppDevAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDevAnalytics.debug.xcconfig"; path = "Target Support Files/Pods-AppDevAnalytics/Pods-AppDevAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
-		4F93ADB9CEECFA4D441BE026 /* libPods-AppDevAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppDevAnalytics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A373A28B90D7A485541FDA /* Pods_AppDevAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDevAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9983255B0E3A7E9A2EB44E /* Pods-AppDevAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDevAnalytics.release.xcconfig"; path = "Target Support Files/Pods-AppDevAnalytics/Pods-AppDevAnalytics.release.xcconfig"; sourceTree = "<group>"; };
 		C263435F2320A01900CE6417 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		C2B3929C231C85B800C07F8B /* AppDevAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppDevAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E81BD35394F2F1E30E12417 /* libPods-AppDevAnalytics.a in Frameworks */,
+				5F3B5039C50B4CAEB3A5FE0D /* Pods_AppDevAnalytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +46,7 @@
 		9449B4EC22DEF0E72F0A1DE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4F93ADB9CEECFA4D441BE026 /* libPods-AppDevAnalytics.a */,
+				75A373A28B90D7A485541FDA /* Pods_AppDevAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
