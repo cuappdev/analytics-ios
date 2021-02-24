@@ -6,26 +6,26 @@
 //  Copyright © 2019 Kevin Chan. All rights reserved.
 //
 
-import Firebase
+import FirebaseAnalytics
 
-protocol Event {
+public protocol Event {
     var name: String { get }
     var parameters: [String: Any]? { get }
 }
 
-extension Event {
+public extension Event {
     var parameters: [String: Any]? {
         nil
     }
 }
 
-class AppDevAnalytics {
+public class AppDevAnalytics {
 
-    static let shared = AppDevAnalytics()
+    static public let shared = AppDevAnalytics()
 
     private init() {}
 
-    func logEvent(_ event: Event) {
+    static public func logEvent(_ event: Event) {
         #if !DEBUG
         Analytics.logEvent(event.name, parameters: event.parameters)
         #else
