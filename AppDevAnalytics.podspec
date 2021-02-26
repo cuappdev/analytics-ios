@@ -22,11 +22,11 @@ Pod::Spec.new do |spec|
 A wrapper for classes used to log analytics to Firebase.
                    DESC
 
-  spec.homepage     = "https://github.com/cuappdev/ios-analytics"
+  spec.homepage     = "https://github.com/cuappdev/analytics-ios"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Cornell AppDev' => 'cornellappdev@gmail.com' }
-  spec.source           = { :git => 'https://github.com/cuappdev/ios-analytics.git', :tag => spec.version.to_s }
+  spec.source           = { :git => 'https://github.com/cuappdev/analytics-ios.git', :tag => spec.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   spec.ios.deployment_target = '9.0'
