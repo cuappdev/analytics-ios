@@ -6,18 +6,29 @@
 //  Copyright © 2019 Kevin Chan. All rights reserved.
 //
 
-import Crashlytics
+import FirebaseAnalytics
 
-class AppDevAnalytics {
+public protocol Event {
+    var name: String { get }
+    var parameters: [String: Any]? { get }
+}
 
-    static let shared = AppDevAnalytics()
+public extension Event {
+    var parameters: [String: Any]? {
+        nil
+    }
+}
+
+public class AppDevAnalytics {
+    static public let shared = AppDevAnalytics()
 
     private init() {}
 
-    func log(_ payload: Payload) {
+    static public func log(_ event: Event) {
         #if !DEBUG
-        let fabricEvent = payload.convertToFabric()
-        Answers.logCustomEvent(withName: fabricEvent.name, customAttributes: fabricEvent.attributes)
+        Analytics.logEvent(event.name, parameters: event.parameters)
+        #else
+        print("[Debug]: Logged event: \(event.name), parameters: \(event.parameters?.description ?? "nil")")
         #endif
     }
 
