@@ -20,12 +20,11 @@ public extension Event {
 }
 
 public class AppDevAnalytics {
-
     static public let shared = AppDevAnalytics()
 
     private init() {}
 
-    static public func logEvent(_ event: Event) {
+    static public func log(_ event: Event) {
         #if !DEBUG
         Analytics.logEvent(event.name, parameters: event.parameters)
         #else
